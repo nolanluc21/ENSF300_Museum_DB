@@ -1,0 +1,49 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "museumdb",
+            "database": "museum",
+            "username": "root",
+            "password": "R3db8ll2121##",
+            "connectionTimeout": 1000
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "Connection 1",
+            "database": "museum",
+            "username": "root",
+            "password": "R3db8ll2121##",
+            "connectionTimeout": 1000
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "connection 2",
+            "database": "museum",
+            "username": "root",
+            "password": "R3db8ll2121##",
+            "connectionTimeout": 100
+        }
+    ]
+}
